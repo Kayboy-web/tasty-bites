@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tasty Bites</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=kk.css>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h1>Tasty Bites</h1>
+    <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#order">Order</a></li>
+        <ul>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+
+    </ul>
+</nav>
+
+<!-- HEADER -->
+<header>
+    <h2>Delicious Meals, Anytime</h2>
+    <p>Fresh • Tasty • Affordable</p>
+</header>
+
+<!-- FOOD MENU -->
+<section id="menu" class="food-container">
+
+    <div class="food-card">
+        <img src="images/burger.jpg" alt="Burger">
+        <h3>Classic Burger</h3>
+        <p>Juicy beef burger with cheese and veggies.</p>
+        <span class="price">$5.00</span>
+        <button onclick="orderFood('Classic Burger - $5')">Order</button>
+    </div>
+
+    <div class="food-card">
+        <img src="images/pizza.jpg" alt="Pizza">
+        <h3>Cheese Pizza</h3>
+        <p>Hot pizza loaded with melted cheese.</p>
+        <span class="price">$8.00</span>
+        <button onclick="orderFood('Cheese Pizza - $8')">Order</button>
+    </div>
+
+    <div class="food-card">
+        <img src="images/rice.jpg" alt="Rice">
+        <h3>Jollof Rice</h3>
+        <p>Spicy West African jollof rice.</p>
+        <span class="price">$6.00</span>
+        <button onclick="orderFood('Jollof Rice - $6')">Order</button>
+    </div>
+
+</section>
+
+<!-- WHATSAPP BUTTON -->
+<section id="order" class="whatsapp">
+    <h2>Order via WhatsApp</h2>
+    <a href="https://wa.me/1234567890" target="_blank">
+        <button class="whatsapp-btn">Chat on WhatsApp</button>
+    </a>
+</section>
+
+<footer>
+    <p>&copy; 2025 Tasty Bites</p>
+</footer>
+
+<script src="kk.js"></script>
+
+</body>
+</html>
